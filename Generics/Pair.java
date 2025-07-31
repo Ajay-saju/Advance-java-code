@@ -10,14 +10,6 @@ public class Pair<T, V> {
         this.second = second;
     }
 
-    // public T getFIrst() {
-    // return first;
-    // }
-
-    // public V getSecond() {
-    // return second;
-    // }
-
     public T getFirst() {
         return first;
     }
@@ -32,7 +24,6 @@ public class Pair<T, V> {
 
         // static method can invock without class object also data1 and data2 can't
         // access in non static methods
-
-    }
+    } 
 
 }
